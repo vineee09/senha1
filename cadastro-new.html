@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro New</title>
+    <link rel="stylesheet" href="./css/cadstro-new.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario de cadastro</h1>
+        <form >
+            <div class="form-control">
+                <label for="nome">Nome:</label>
+                <input type="text" id="Nome" placeholder="Digite seu nome">
+            </div>
+
+            <div class="form-control">
+                <label for="idade">Idade:<label>
+                <input type="number" id="idade" placeholder="Digite sua idade" required>
+            </div>
+
+            <div class="form-control">
+                <label for="nivel">Nivel de conhecimento:</label>
+                <input type="range" id="nivel" min="0" max="100" required>
+            </div>
+
+            <div class="form control">
+                <label for="cor">Escolha uma cor</label>
+                <input type="color" id="cor" required>
+            </div>
+
+            <div class="form-control">
+                <label for="arquivo">Enviar arquivo:</label>
+                <input type="file" id="arquivo" required>
+            </div>
+            <div class="form-control">
+                <button type="submit">Enviar</button>
+            </div>
+
+        </form>
+    </div>    
+</body>
+
+</html>
